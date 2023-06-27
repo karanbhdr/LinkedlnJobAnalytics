@@ -20,9 +20,9 @@ The project aims to scrape job data from LinkedIn using the Python library Beaut
 3. Details Table: This table contains additional details related to the job postings, including the details ID, experience level, required skills, and total number of job applicants.
 
 # Methodology
-The following methodology was used to accomplish the project objectives:
+# The following methodology was used to accomplish the project objectives:
 
-1. Data Scraping: The job data was scraped from LinkedIn using the Python library BeautifulSoup. The data was scraped based on specific search criteria, such as   job titles, job locations, and company names.
+1.Data Scraping: The job data was scraped from LinkedIn using the Python library BeautifulSoup. The data was scraped based on specific search criteria, such as   job titles, job locations, and company names.
 
 2.Data Transformation: The scraped data was transformed into three tables, namely jobs, company, and details with the help of Power Query and Excel. The jobs table contained attributes such as job_id, company_id, location, designation, and details_id. The company table contained attributes such as company_id, name, industry, employees_count, and linkedin_followers. The details table contained attributes such as details_id, involvement, level, total_applicants, and skills.
 
